@@ -1,0 +1,90 @@
+header > div {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+header div:last-child {
+  margin-bottom: 0;
+}
+.topMenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topMenu ul {
+  display: flex;
+  justify-content: center;
+}
+.topMenu ul:first-child li {
+  margin-right: 8px;
+}
+.topMenu ul:nth-child(2) li {
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.searchPart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchPart > div {
+  width: 100%;
+  margin-left: 20px;
+}
+.searchPart form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchPart form > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #f8f9fa;
+  padding: 10px 0 10px 5px;
+  margin-right: 10px;
+}
+.searchPart form input {
+  width: 100%;
+  background: none;
+  border: none;
+  height: 20px;
+  color: #ffffff;
+  outline: none;
+}
+.searchPart form input::placeholder {
+  color: #ffffff;
+  font-size: 0.8rem;
+  border: none;
+}
+
+.searchPart form i {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.searchPart input {
+  width: 80%;
+}
+.menuBar {
+  background-color: #222;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.menuBar ul {
+  display: flex;
+  position: sticky;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+.menuBar ul i {
+  font-size: 18px;
+}
+.menuBar ul li {
+  padding: 5px;
+}
